@@ -16,16 +16,23 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-impl.recovery \
-    android.hardware.boot@1.0-service \
+    android.hardware.boot@1.0-service
 
 PRODUCT_PACKAGES += \
-    bootctrl.kona
-
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     bootctrl.kona \
+    bootctrl.kona.recovery
+
+#GNSS HAL
+PRODUCT_PACKAGES += \
+    bootctrl.kona \
+    libgps.utils \
     libgptutils \
+    libgnss \
     libz \
-    libcutils
+    libcutils \
+    liblocation_api \
+    android.hardware.gnss@1.1-impl-qti \
+    android.hardware.gnss@1.1-service-qti
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
