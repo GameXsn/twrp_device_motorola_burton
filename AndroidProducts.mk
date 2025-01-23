@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_burton.mk
+    $(LOCAL_DIR)/twrp_burton.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_burton-user \
-    omni_burton-userdebug \
-    omni_burton-eng
+    twrp_burton-user \
+    twrp_burton-userdebug \
+    twrp_burton-eng
