@@ -7,6 +7,10 @@
 
 DEVICE_PATH := device/motorola/burton
 
+# Kernel
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
+
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
