@@ -1,8 +1,8 @@
 [
     {
-        "remote": "TeamWin",
-        "repository": "android_device_samsung_s5e8535-common",
-        "target_path": "device/samsung/s5e8535-common",
-        "revision": "android-12.1"
+        "remote": "GameXsn",
+        "repository": "android_vendor_motorola_burton",
+        "target_path": "vendor/motorola/burton",
+        "revision": "android-12"
     }
 ]
